@@ -1,0 +1,60 @@
+/* Estilos del panel. Todo sale de tokens.css (generado). No pongas colores sueltos aquí. */
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--c-paper); color: var(--c-ink); font-family: var(--font-body); font-size: 16px; font-weight: 600; }
+h1, h2, h3 { font-family: var(--font-title); font-weight: 700; margin: 0; }
+h1 { font-size: 34px; } h2 { font-size: 26px; } h3 { font-size: 20px; }
+.muted { color: var(--c-muted); }
+
+.shell { display: grid; grid-template-columns: 230px minmax(0, 1fr); min-height: 100vh; }
+.side { background: var(--c-ink); color: var(--c-paper); padding: 20px 14px; }
+.side .brand { font-family: var(--font-title); font-size: 24px; margin: 0 8px 20px; }
+.nav { display: grid; gap: 6px; }
+.nav button { all: unset; box-sizing: border-box; cursor: pointer; min-height: var(--touch-min); display: flex; align-items: center; padding: 0 14px; border-radius: var(--r-md); color: var(--c-paper); font-weight: 800; border: var(--border) solid transparent; }
+.nav button[aria-current="page"] { background: var(--c-reward); color: var(--c-ink); border-color: var(--c-paper); }
+.nav button:hover:not([aria-current="page"]) { background: #2A2A45; }
+:focus-visible { outline: 3px solid var(--c-primary); outline-offset: 2px; }
+.side :focus-visible { outline-color: var(--c-reward); }
+main { min-width: 0; padding: 24px; max-width: 1040px; width: 100%; display: grid; grid-template-columns: minmax(0, 1fr); gap: 18px; align-content: start; }
+
+/* pegatina: contorno grueso + sombra dura */
+.sticker { background: var(--c-card); border: var(--border) solid var(--c-ink); border-radius: var(--r-md); box-shadow: var(--shadow) var(--shadow) 0 var(--c-ink); padding: 16px; }
+.sticker.flat { box-shadow: none; }
+.btn { min-height: var(--touch-min); padding: 0 20px; border: var(--border) solid var(--c-ink); border-radius: var(--r-md); background: var(--c-primary); color: var(--on-primary); font: inherit; font-weight: 900; font-size: 17px; cursor: pointer; box-shadow: var(--shadow) var(--shadow) 0 var(--c-ink); }
+.btn:active { transform: translate(3px, 3px); box-shadow: 1px 1px 0 var(--c-ink); }
+.btn.ghost { background: var(--c-card); color: var(--c-ink); }
+.btn.reward { background: var(--c-reward); color: var(--on-reward); }
+
+.chip { display: inline-flex; align-items: center; gap: 6px; border: var(--border) solid var(--c-ink); border-radius: var(--r-pill); padding: 2px 12px; font-weight: 900; font-size: 15px; }
+.chip.primary { background: var(--c-primary); color: var(--on-primary); }
+.chip.energy { background: var(--c-energy); color: var(--on-energy); }
+.chip.rest { background: var(--c-rest); color: var(--on-rest); }
+.chip.win { background: var(--c-win); color: var(--on-win); }
+.chip.reward { background: var(--c-reward); color: var(--on-reward); }
+
+.row { display: flex; gap: 14px; flex-wrap: wrap; align-items: end; }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 16px; }
+.stat .bar-dot { width: 28px; height: 6px; border-radius: 3px; margin-bottom: 6px; }
+.stat b { display: block; font-family: var(--font-title); font-size: 28px; }
+label { display: grid; gap: 4px; font-weight: 800; font-size: 15px; }
+input, select { min-height: var(--touch-min); padding: 0 12px; border: var(--border) solid var(--c-ink); border-radius: var(--r-sm); font: inherit; font-weight: 700; background: var(--c-card); color: var(--c-ink); }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: 10px 8px; border-bottom: 2px solid var(--c-soft); font-size: 15px; }
+th { font-weight: 900; }
+
+.plot { position: relative; display: flex; align-items: flex-end; gap: 12px; height: 150px; border-bottom: var(--border) solid var(--c-ink); }
+.plot .col { flex: 1; height: 100%; display: flex; align-items: flex-end; }
+.plot .bar { width: 100%; background: var(--c-primary); border: var(--border) solid var(--c-ink); border-bottom: 0; border-radius: 8px 8px 0 0; min-height: 3px; }
+.plot .bar.top { background: var(--c-reward); }
+.plot .goal { position: absolute; left: 0; right: 0; border-top: 3px dashed var(--c-energy); }
+.labels { display: flex; gap: 12px; margin-top: 6px; }
+.labels span { flex: 1; text-align: center; font-size: 14px; font-weight: 800; }
+
+.recipe summary { cursor: pointer; min-height: 32px; font-weight: 800; }
+.toggle { display: flex; gap: 10px; align-items: center; min-height: var(--touch-min); }
+.toggle input { width: 26px; height: 26px; min-height: 0; accent-color: var(--c-primary); }
+
+@media (max-width: 760px) { .shell { grid-template-columns: minmax(0, 1fr); } .side { padding: 10px; } .nav { grid-auto-flow: column; overflow-x: auto; } main { padding: 14px; } }
+
+.scroll { overflow-x: auto; }
+.scroll table { min-width: 520px; }
+.recipe details > :last-child { margin-bottom: 0; }

@@ -1,0 +1,28 @@
+/* GENERADO por shared/design/build.js — no editar a mano */
+:root {
+  --c-ink: #1B1B2F;
+  --c-paper: #FFF8EC;
+  --c-card: #FFFFFF;
+  --c-soft: #F1E7D3;
+  --c-muted: #5B5B73;
+  --c-primary: #3D5AFE;
+  --c-primary-pressed: #2A43D6;
+  --c-energy: #FF6B2C;
+  --c-rest: #2EC4A0;
+  --c-win: #7C3AED;
+  --c-reward: #FFC933;
+  --on-primary: #FFFFFF;
+  --on-energy: #1B1B2F;
+  --on-rest: #1B1B2F;
+  --on-win: #FFFFFF;
+  --on-reward: #1B1B2F;
+  --r-sm: 10px;
+  --r-md: 16px;
+  --r-lg: 24px;
+  --r-pill: 999px;
+  --border: 3px;
+  --shadow: 4px;
+  --touch-min: 48px;
+  --font-title: 'Fredoka', system-ui, sans-serif;
+  --font-body: 'Nunito', system-ui, sans-serif;
+}

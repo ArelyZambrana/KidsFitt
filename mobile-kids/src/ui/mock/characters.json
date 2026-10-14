@@ -1,0 +1,146 @@
+[
+  {
+    "id": "osos",
+    "name": "Osos escandalosos",
+    "origin": "Cartoon Network",
+    "src": "osos.gif",
+    "still": "osos.png",
+    "accentColor": "#8B5E3C",
+    "cost": 0
+  },
+  {
+    "id": "richard",
+    "name": "Richard",
+    "origin": "Cartoon Network",
+    "src": "richard.gif",
+    "still": "richard.png",
+    "accentColor": "#E8798F",
+    "cost": 0
+  },
+  {
+    "id": "bob",
+    "name": "Bob Esponja",
+    "origin": "Nickelodeon",
+    "src": "bob.gif",
+    "still": "bob.png",
+    "accentColor": "#E0AE00",
+    "cost": 0
+  },
+  {
+    "id": "skullette",
+    "name": "Skullette",
+    "origin": "Monster High · Mattel",
+    "src": "skullette.gif",
+    "still": "skullette.png",
+    "accentColor": "#D6336C",
+    "cost": 0
+  },
+  {
+    "id": "gato",
+    "name": "Gato manzana",
+    "origin": "Meme animado",
+    "src": "gato.gif",
+    "still": "gato.png",
+    "accentColor": "#C62828",
+    "cost": 300
+  },
+  {
+    "id": "booyah",
+    "name": "¡Booyah!",
+    "origin": "Free Fire",
+    "src": "booyah.gif",
+    "still": "booyah.png",
+    "accentColor": "#F28C00",
+    "cost": 400
+  },
+  {
+    "id": "esqueleto-amor",
+    "name": "Esqueleto enamorado",
+    "origin": "Clash Royale",
+    "src": "esqueleto-amor.gif",
+    "still": "esqueleto-amor.png",
+    "accentColor": "#E5243B",
+    "cost": 600
+  },
+  {
+    "id": "jack",
+    "name": "Jack Skellington",
+    "origin": "Tim Burton · Disney",
+    "src": "jack.gif",
+    "still": "jack.png",
+    "accentColor": "#4B4F8F",
+    "cost": 800
+  },
+  {
+    "id": "spike",
+    "name": "Spike",
+    "origin": "Brawl Stars",
+    "src": "spike.gif",
+    "still": "spike.png",
+    "accentColor": "#5BAE2A",
+    "cost": 1000
+  },
+  {
+    "id": "trofeo",
+    "name": "Trofeo",
+    "origin": "Brawl Stars",
+    "src": "trofeo.gif",
+    "still": "trofeo.png",
+    "accentColor": "#C99A00",
+    "cost": 1200
+  },
+  {
+    "id": "toybonnie",
+    "name": "Toy Bonnie",
+    "origin": "Five Nights at Freddy's",
+    "src": "toybonnie.gif",
+    "still": "toybonnie.png",
+    "accentColor": "#2A7FBF",
+    "cost": 1400
+  },
+  {
+    "id": "elprimo",
+    "name": "El Primo",
+    "origin": "Brawl Stars",
+    "src": "elprimo.gif",
+    "still": "elprimo.png",
+    "accentColor": "#1F6FEB",
+    "cost": 1600
+  },
+  {
+    "id": "freddy",
+    "name": "Freddy Fazbear",
+    "origin": "Five Nights at Freddy's",
+    "src": "freddy.gif",
+    "still": "freddy.png",
+    "accentColor": "#8A5A12",
+    "cost": 1800
+  },
+  {
+    "id": "esqueleto-rey",
+    "name": "Esqueleto rey",
+    "origin": "Clash Royale",
+    "src": "esqueleto-rey.gif",
+    "still": "esqueleto-rey.png",
+    "accentColor": "#B8860B",
+    "cost": 2000
+  },
+  {
+    "id": "rey",
+    "name": "Rey",
+    "origin": "Clash Royale",
+    "src": "rey.gif",
+    "still": "rey.png",
+    "accentColor": "#5A606B",
+    "cost": 2300
+  },
+  {
+    "id": "emoji",
+    "name": "Emoji blanco",
+    "origin": "Brawl Stars",
+    "src": "emoji.gif",
+    "still": "emoji.png",
+    "accentColor": "#B58900",
+    "cost": 2600
+  }
+]
